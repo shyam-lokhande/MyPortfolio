@@ -79,7 +79,7 @@ function App() {
             <h4 className="card-title" >Radiance Competition Website</h4>
             <p className="card-text">I had participated in Radiance Competition by PICT. During the event I had made this Website as a submission.</p>
           </div>
-          <a href="https://shyam-lokhande.github.io/Radiance_Round_2/" target="_blank" className="btn btn-dark">View Source</a>
+          <a href="https://shyam-lokhande.github.io/Radiance_Round_2/" target="_blank" rel="noreferrer" className="btn btn-dark">View Source</a>
         </div>
   
         <div className="card mb-2 card1" >
@@ -88,7 +88,7 @@ function App() {
             <h4 className="card-title" >HackerRank Profile</h4>
           <p className="card-text">In order to improve my JavaScript I joined HackerRank portal. There I had done programming in JavaScript and I got 4 stars for it. Check it out below.</p>
         </div>
-        <a href="https://www.hackerrank.com/lokhandeshyam201" target="_blank" className="btn btn-dark">View Source</a>
+        <a href="https://www.hackerrank.com/lokhandeshyam201" target="_blank" rel="noreferrer" className="btn btn-dark">View Source</a>
         </div>
       
         <div className="card mb-2 card1" >
@@ -97,7 +97,7 @@ function App() {
             <h4 className="card-title" >Python Programs</h4>
             <p className="card-text">I have programmed in python as well. And I have uploaded all the programs on github. You can checkout the code at my github page.</p>
           </div>
-          <a href="https://github.com/shyam-lokhande/PythonProjects" target="_blank" className="btn btn-dark">View Source</a>
+          <a href="https://github.com/shyam-lokhande/PythonProjects" target="_blank" rel="noreferrer" className="btn btn-dark">View Source</a>
         </div>
     
         
