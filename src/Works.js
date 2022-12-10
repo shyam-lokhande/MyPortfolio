@@ -8,7 +8,7 @@ import ShapeProject from"./assets/ShapeProject.png";
 import SciCalculator from"./assets/SciCalculator.png";
 
 const Works = () => {
-  const works = [
+  const works1 = [
     {
       id: 1,
       title: "Kisan Project",
@@ -29,13 +29,39 @@ const Works = () => {
         desc: "This is a project which uses the functionality of and gate. It runs when both ignition and wiper both or on. This is the project that I had created during my second year of engineering when I had completed the VLAB Audit Course.",
         img: AndGateProject,
         link:"https://shyam-lokhande.github.io/AndGateSimulationProject"
-    },
+    }
+  ];
+
+  const worksMap1 = works1.map((item) => {
+    return (
+      <div className="card mb-2 card1" key={item.id}>
+        <img src={item.img} className="card-img-top" alt="..." />
+        <div className="card-body">
+          <h4 className="card-title">{item.title}</h4>
+          <p className="card-text">{item.desc}</p>
+        </div>
+        <a
+          href={item.link}
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-dark"
+        >
+          View Source
+        </a>
+      </div>
+    );
+  });
+
+
+
+
+  const works2 = [
     {
       id: 4,
       title: "Trigonometric Calculator",
       desc: "I have created this Trigonometric calculator which implements many of the trigonometric functiond. This calculator mainly contains the functions like sin,cos tan, etc.",
       img: SciCalculator,
-      link:"https://github.com/shyam-lokhande/PythonProjects"
+      link:"https://shyam-lokhande.github.io/Scientific-Calulator/"
     },
     {
         id: 5,
@@ -53,7 +79,7 @@ const Works = () => {
       },
   ];
 
-  const worksMap = works.map((item) => {
+  const worksMap2 = works2.map((item) => {
     return (
       <div className="card mb-2 card1" key={item.id}>
         <img src={item.img} className="card-img-top" alt="..." />
@@ -80,8 +106,11 @@ const Works = () => {
       <center>
         <span className="text-dark text-center head">My Works</span>
       </center>
-      <div className="d-flex flex-column flex-md-row justify-content-evenly">
-        {worksMap}
+      <div className="d-flex flex-column flex-md-row justify-content-evenly mb-3">
+        {worksMap1}
+      </div>
+      <div className="d-flex flex-column flex-md-row justify-content-evenly mb-3">
+        {worksMap2}
       </div>
     </div>
   );

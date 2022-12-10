@@ -4,7 +4,7 @@ import './css/App.css';
 const Navbar= ()=>{
     return(
         <div >
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="#nav">
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="#nav">
                 <div className="container-fluid">
                 <a className="navbar-brand" href="./index.html">Shyam Lokhande</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

@@ -29,6 +29,7 @@ body{
   position: relative;
   width: 460px;
   height: 460px;
+  margin-top: 5vh;
 }
 .image{
   width: 350px;
@@ -41,8 +42,12 @@ body{
   font-weight: 30px;
 }
 .img{
-  width: 13%;
-  height: 13%;
+  width: 30%;
+  height: 60%;
+}
+.img1{
+  width: 10%;
+  height: 22%;
 }
 .card-img-top{
   width: 100%;

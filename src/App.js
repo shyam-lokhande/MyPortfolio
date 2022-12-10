@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import SelfInfo from './SelfInfo';
 import Skills from './Skills';
 import Works from './Works';
+import Footer from "./Footer"
 
 function App() {
   
@@ -24,8 +25,8 @@ function App() {
 
       <Works/>
     
-      
-    <div className="container">
+
+      <div className="container">
       <center><span className="text-dark text-center head" id="contact">Contact Me</span></center>
       <section id="contact" className="mt-4 py-4">
         <div className="row">
@@ -46,8 +47,12 @@ function App() {
           </div>
         </div>
     </section>
-    
     </div>
+      
+    
+
+    <Footer/>
+
     </div>
   );
 }
