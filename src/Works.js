@@ -2,19 +2,20 @@ import React from "react";
 import "./css/App.css";
 
 import radiance from "./assets/radiance.JPG";
-import hackerrank from "./assets/hackerrank.JPG";
+import python from "./assets/pythonproject.png";
 import AndGateProject from"./assets/AndGateProject.png";
 import ShapeProject from"./assets/ShapeProject.png";
 import SciCalculator from"./assets/SciCalculator.png";
+import crm from "./assets/crm.png"
 
 const Works = () => {
   const works1 = [
     {
       id: 1,
-      title: "Kisan Project",
-      desc: "I had participated in Radiance Competition by PICT. During the event I had made this Website as a submission.",
-      img: radiance,
-      link:"https://shyam-lokhande.github.io/Kisan/"
+      title: "CRM Project",
+      desc: "Technologies used : Django, Mysql. This is a Customer relationship Management project which includes the CRUD functions to manage and organize the data.",
+      img: crm,
+      link:"https://github.com/shyam-lokhande/CRUD"
     },
     {
       id: 2,
@@ -65,16 +66,16 @@ const Works = () => {
     },
     {
         id: 5,
-        title: "HackerRank Profile",
-        desc: "In order to improve my JavaScript I joined HackerRank portal. There I had done programming in JavaScript and I got 4 stars for it. Check it out below.",
-        img: hackerrank,
-        link:"https://www.hackerrank.com/lokhandeshyam201"
+        title: "Kisan Project",
+        desc: "I had participated in Radiance Competition by PICT. During the event I had made this Website as a submission.",
+        img: radiance,
+        link:"https://shyam-lokhande.github.io/Kisan/"
     },
     {
         id: 6,
         title: "Python Programs",
         desc: "I have programmed in python as well. And I have uploaded all the programs on github. You can checkout the code at my github page.",
-        img: radiance,
+        img: python,
         link:"https://github.com/shyam-lokhande/PythonProjects"
       },
   ];

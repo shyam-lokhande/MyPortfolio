@@ -107,3 +107,41 @@ body{
       height: 150px;
   }
 }
+
+.bar {
+  height: 10px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  
+  border-radius: 5px;
+}
+
+.bar.java {
+  width: 90%;
+  background-color: rgb(47, 16, 220);
+}
+
+.bar.django {
+  width: 85%;
+  background-color: rgb(6, 179, 64);
+}
+
+.bar.htmlcss {
+  width: 80%;
+  background-color: rgb(184, 20, 154);
+}
+
+.bar.mysql {
+  width: 70%;
+  background-color: rgb(9, 103, 115);
+}
+
+.bar.javascript {
+  width: 75%;
+  background-color: rgb(224, 80, 14);
+}
+
+.bar.reactjs {
+  width: 80%;
+  background-color: rgb(69, 16, 28);
+}
