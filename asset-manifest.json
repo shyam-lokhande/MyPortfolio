@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/MyPortfolio/static/css/main.4bbf6d16.css",
-    "main.js": "/MyPortfolio/static/js/main.9a3226a9.js",
+    "main.css": "/MyPortfolio/static/css/main.ef84b1e2.css",
+    "main.js": "/MyPortfolio/static/js/main.263569bb.js",
     "static/js/787.1ed0c42c.chunk.js": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ShyamLokhande.jpg": "/MyPortfolio/static/media/ShyamLokhande.02c0f8c9cfeecf484f53.jpg",
+    "static/media/crm.png": "/MyPortfolio/static/media/crm.5658591e36cb0c6d3c5d.png",
     "static/media/radiance.JPG": "/MyPortfolio/static/media/radiance.1742f199db0b5bd136d9.JPG",
-    "static/media/c.png": "/MyPortfolio/static/media/c.7d19acd9ddedca6adbdc.png",
     "static/media/ShapeProject.png": "/MyPortfolio/static/media/ShapeProject.82c7a6a53eacefee53c5.png",
     "static/media/AndGateProject.png": "/MyPortfolio/static/media/AndGateProject.fba05def8d320d36441a.png",
     "static/media/SciCalculator.png": "/MyPortfolio/static/media/SciCalculator.9822f0844f1eb3d2297d.png",
-    "static/media/python.png": "/MyPortfolio/static/media/python.c2f539d50caa3745ce64.png",
-    "static/media/css-3.png": "/MyPortfolio/static/media/css-3.463e319bad8e0edf1ef7.png",
-    "static/media/react.jpg": "/MyPortfolio/static/media/react.a6860381de815591af4c.jpg",
-    "static/media/hackerrank.JPG": "/MyPortfolio/static/media/hackerrank.34b221a0b3b64cff254f.JPG",
+    "static/media/pythonproject.png": "/MyPortfolio/static/media/pythonproject.4073ec97e85f917eace1.png",
     "index.html": "/MyPortfolio/index.html",
-    "main.4bbf6d16.css.map": "/MyPortfolio/static/css/main.4bbf6d16.css.map",
-    "main.9a3226a9.js.map": "/MyPortfolio/static/js/main.9a3226a9.js.map",
+    "main.ef84b1e2.css.map": "/MyPortfolio/static/css/main.ef84b1e2.css.map",
+    "main.263569bb.js.map": "/MyPortfolio/static/js/main.263569bb.js.map",
     "787.1ed0c42c.chunk.js.map": "/MyPortfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4bbf6d16.css",
-    "static/js/main.9a3226a9.js"
+    "static/css/main.ef84b1e2.css",
+    "static/js/main.263569bb.js"
   ]
 }
