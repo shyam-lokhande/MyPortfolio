@@ -7,15 +7,31 @@ function Skills(props) {
   return (
     <div className="container mt-4 p-4 bg-dark text-light">
       <center>
-        <span className=" text-center head">My Works</span>
+        <h2 className="text-center mb-4">Skills</h2>
       </center>
-      {languages.map((language) => (
-        <div key={language.name}>
-          <p>{language.name}</p>
-          <p className=" float-end ">{language.per}</p>
-          <div className={`bar ${language.level.toLowerCase()}`} ></div>
-        </div>
-      ))}
+      <div className="row row-cols-1 row-cols-md-2 g-4">
+        {languages.map((language) => (
+          <div key={language.name} className="col mb-4 text-dark">
+            <div className="card h-100">
+              <div className="card-body">
+                <h5 className="card-title">{language.name}</h5>
+                <div className="progress">
+                  <div
+                    className={`progress-bar bg-${language.level.toLowerCase()}`}
+                    role="progressbar"
+                    style={{ width: language.per }}
+                    aria-valuenow={language.per}
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {language.per}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }

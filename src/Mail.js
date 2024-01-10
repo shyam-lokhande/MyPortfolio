@@ -29,7 +29,7 @@ function Mail() {
                 <textarea className="form-control" onChange={handleInputChange} id="exampleFormControlTextarea1" required placeholder="Enter your amazing message" rows="3"></textarea>
               </div>
               <center><button type="submit" className="btn btn-primary">
-                Submit
+                Send Email
               </button></center>
             </form>
           </div>

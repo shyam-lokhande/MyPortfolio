@@ -16,10 +16,7 @@ const SelfInfo = () => {
             from Pune Vidyarthi Griha's College of Engineering and Technology,
             Pune.
             <br />
-            Experienced Member with a demonstrated history of working in the
-            education management industry. Skilled in Python (Programming
-            Language), C++, Java, Object-Oriented Programming (OOP), English,
-            HTML/CSS, Bootstrap, ReactJs , Django and Mysql. Currently looking for an internship in Web Development. 
+            I'm passionate about developing software, and I know a lot about Python, C++, and Java. I also have good experience with MySQL, Django Framework , and ReactJS Library in web development. Additionally, I have a solid understanding of computer topics like operating systems, database management systems, and computer networks.
             <br />
           </div>
         </div>

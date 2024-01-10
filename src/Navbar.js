@@ -13,8 +13,9 @@ const Navbar= ()=>{
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <a className="nav-link mx-5 " href="#self">Myself</a>
-                        <a className="nav-link mx-5" href="#skill">My Skills</a>
-                        <a className="nav-link mx-5" href="#work">My Works</a>
+                        <a className="nav-link mx-5" href="#experince">Experience</a>
+                        <a className="nav-link mx-5" href="#skill">Skills</a>
+                        <a className="nav-link mx-5" href="#work">Projects</a>
                         <a className="nav-link mx-5" href="#contact">Contact Me</a>
                     </div>
                 </div>
